@@ -4,3 +4,51 @@
     box-sizing: border-box;
 }
 
+.container{
+    background-color: grey;
+    height: 800px;
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    height: 200px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-item{
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+}
+
+nav{
+    width: 500px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between ;
+}
+
+li{
+    list-style: none
+}
+
+h1{
+    color: white;
+}
+
+.container-titolo{
+    margin: 0px 200px;
+    background-color: bisque;
+    height: 600px;
+    text-align: center;
+}
