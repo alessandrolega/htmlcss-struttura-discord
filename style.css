@@ -133,5 +133,53 @@ footer{
     background-color: dimgrey;
 }
 
+.footer-container{
+    width: 80%;
+    margin: 0 auto;
+    height: 600px;
+    background-color: blueviolet;
+}
+
+.footer-flex1{
+    width: 100%;
+    height: 600px;
+    background-color: brown;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.footer-item{
+    flex-basis: 29%;
+    height: 600px;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.itembig{
+    flex-basis: 40%;
+    background-color: red;
+}
+
+
+
+.footer-flex2{
+    width: 80%;
+    margin: 0 auto;
+    height: 200px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-item{
+    width: 200px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    border: 1px solid black;
+}
+
+
+
 
 
