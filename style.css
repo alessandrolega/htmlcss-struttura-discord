@@ -6,7 +6,7 @@
 
 .container{
     background-color: grey;
-    height: 800px;
+    height: 600px;
 }
 
 header{
@@ -49,6 +49,61 @@ h1{
 .container-titolo{
     margin: 0px 200px;
     background-color: bisque;
-    height: 600px;
+    height: 400px;
     text-align: center;
+}
+
+.section1{
+    background-color: cadetblue;
+    height: 600px;
+}
+
+.container-section1{
+   width: 80%;
+   margin: 0 auto;
+   height: 600px;
+   background-color: coral;
+   border: 1px solid black;
+   display: flex;
+   justify-content: space-between;
+}
+
+.img-div{
+    width: 50%;
+    height: 300px;
+    background-color: blue;
+    margin-top: 150px;
+    
+}
+
+.text-div{
+    width: 49%;
+    height: 300px;
+    margin-top: 150px;
+    background-color: red;
+}
+
+.section2{
+    background-color: brown;
+    height: 600px;
+}
+.section3{
+    background-color: crimson;
+    height: 600px;
+}
+
+.section4{
+    background-color: wheat ;
+    height: 800px;
+}
+
+.container-section4{
+    width: 80%;
+    margin: 0 auto;
+    height: 700px;
+    background-color: coral;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
